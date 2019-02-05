@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            color: #FFFF00;
+            font-size: x-large;
+        }
+        .auto-style2 {
+            width: 77px;
+            font-size: medium;
+        }
+        .auto-style3 {
+            width: 603px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            <p>
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">
+                            &nbsp;</td>
+                        <td class="auto-style3">&nbsp;
+                            <asp:Label ID="Label1" runat="server" BackColor="Teal" Text="Weclome to the Missouri Natural Science Museum !"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/Images/Missouri Natural Science Musuem logo.jpg" Width="238px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">
+                            <asp:TreeView ID="TreeView1" runat="server" BackColor="#009999" BorderColor="Black" Height="108px" Width="255px" Font-Bold="True" Font-Names="Candara" ForeColor="Yellow" ShowLines="True" Font-Size="Large">
+                                <Nodes>
+                                    <asp:TreeNode NavigateUrl="~/Default.aspx" Text="Home" Value="Home"></asp:TreeNode>
+<asp:TreeNode Text="Learn about natural history !" Value="Learn about wildlife !" NavigateUrl="~/Learn about natural history.aspx"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/VisitUs.aspx" Text="Visit Us" Value="Visit Us"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/About us.aspx" Text="About us" Value="Default"></asp:TreeNode>
+                                </Nodes>
+                            </asp:TreeView>
+                        </td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
